@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".encryption">1
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:outlineSpotShadowColor="@color/black">
+
+
+    </Button>
+
+    <EditText
+        android:id="@+id/en_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/en"
+        android:padding="20dp"
+        android:maxHeight="130dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/rounded"
+        android:layout_marginTop="00dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="202dp"
+        android:textAlignment="center"
+        android:hint="Enter text to be Encrypted"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/en"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:background="@drawable/rounded"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="158dp"
+        android:text="Encrypt"
+        android:textSize="30dp">
+    </Button>
+
+
+</RelativeLayout>
