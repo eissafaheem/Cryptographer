@@ -1,6 +1,6 @@
 # Cryptographer
 
-•	Cryptographer enables us to store sensitive information or transmit it across insecure networks so that it cannot be read by anyone except the intended recipient.
+•	Cryptographer enables us to transmit sensitive information across insecure networks, so that it cannot be read by anyone except the intended recipient.
 
 •	When confidensial data is entered Cryptographer encrypts it to an unreadable format.
 
